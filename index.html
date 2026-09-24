@@ -3,210 +3,312 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy Policy — Daily Horoscope 2026: Zodiac</title>
+<title>Daily Horoscope 2026: Zodiac — Privacy Policy</title>
 <style>
-  :root{
-    --ink:#11142B; --ink-deep:#0A0C1C; --panel:#1A1E3D;
-    --gold:#C9A24E; --gold-dim:#4A4326; --parchment:#E8E2D0; --muted:#8E90A8;
-  }
-  *{box-sizing:border-box}
-  body{
-    margin:0; padding:0 20px 64px;
-    background:var(--ink); color:var(--parchment);
-    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-  }
-  .wrap{max-width:760px; margin:0 auto}
-  header{padding:48px 0 24px; border-bottom:1px solid var(--gold-dim); margin-bottom:32px}
-  .eyebrow{color:var(--gold); font-size:12px; letter-spacing:.18em; text-transform:uppercase; margin:0 0 12px}
-  h1{margin:0 0 8px; font-size:30px; line-height:1.2; font-weight:600}
-  .sub{color:var(--muted); margin:0; font-size:14px}
-  nav{margin:24px 0 0; display:flex; gap:8px; flex-wrap:wrap}
-  nav button{
-    background:transparent; color:var(--muted); border:1px solid var(--gold-dim);
-    border-radius:8px; padding:8px 16px; font-size:14px; cursor:pointer; font-family:inherit;
-  }
-  nav button[aria-selected="true"]{background:var(--panel); color:var(--gold); border-color:var(--gold)}
-  h2{font-size:19px; margin:36px 0 10px; color:var(--gold); font-weight:600}
-  p,li{color:var(--parchment)}
-  ul{padding-left:20px}
-  li{margin-bottom:8px}
-  a{color:var(--gold)}
-  .box{background:var(--ink-deep); border:1px solid var(--gold-dim); border-radius:12px; padding:18px 20px; margin:24px 0}
-  .box p{margin:0; font-size:15px}
-  table{width:100%; border-collapse:collapse; margin:16px 0; font-size:14.5px; display:block; overflow-x:auto}
-  th,td{text-align:left; padding:10px 12px; border-bottom:1px solid var(--gold-dim); vertical-align:top}
-  th{color:var(--gold); font-weight:600; white-space:nowrap}
-  footer{margin-top:48px; padding-top:24px; border-top:1px solid var(--gold-dim); color:var(--muted); font-size:14px}
-  [hidden]{display:none !important}
+  :root { color-scheme: light dark; --mut:#777; --bd:#d9d9de; --acc:#b8862e; --boxbg:rgba(127,127,127,.08); }
+  @media (prefers-color-scheme: dark) { :root { --mut:#9a9a9a; --bd:#33343a; --acc:#d4a84e; } }
+  * { box-sizing: border-box; }
+  body { max-width: 760px; margin: 0 auto; padding: 28px 20px 72px;
+         font: 16px/1.65 -apple-system, "Segoe UI", Roboto, sans-serif; }
+  h1 { font-size: 27px; margin: 0 0 4px; line-height: 1.25; }
+  h2 { font-size: 19px; margin-top: 30px; }
+  .updated { color: var(--mut); font-size: 14px; margin-top: 0; }
+  .box { background: var(--boxbg); border: 1px solid var(--bd); border-radius: 12px;
+         padding: 14px 18px; margin: 22px 0; }
+  .box p { margin: 0; }
+  ul { padding-left: 22px; }
+  .tabs { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:26px; }
+  .tab { font:inherit; font-size:14px; padding:7px 13px; border-radius:999px;
+         border:1px solid var(--bd); background:transparent; color:inherit; cursor:pointer; }
+  .tab.active { border-color:var(--acc); color:var(--acc); font-weight:600; }
+  .pane { display:none; } .pane.active { display:block; }
+  a { color: var(--acc); }
+  footer { margin-top:40px; color:var(--mut); font-size:13px; }
 </style>
 </head>
 <body>
-<div class="wrap">
-
-<header>
-  <p class="eyebrow">✦ Daily Horoscope 2026: Zodiac ✦</p>
-  <h1 data-en="Privacy Policy" data-ru="Политика конфиденциальности">Privacy Policy</h1>
-  <p class="sub"><span data-en="Last updated: 21 August 2026" data-ru="Последнее обновление: 21 августа 2026 г.">Last updated: 21 August 2026</span></p>
-  <nav>
-    <button id="btn-en" aria-selected="true" onclick="pick('en')">English</button>
-    <button id="btn-ru" aria-selected="false" onclick="pick('ru')">Русский</button>
-  </nav>
-</header>
-
-<!-- ================= ENGLISH ================= -->
-<section id="lang-en">
-
-  <div class="box">
-    <p><strong>The short version:</strong> this app has no accounts, no registration, and no servers of ours. Everything you do in the app stays on your phone. The only data leaving your device is what Google's advertising and payment services collect, and you can limit that in your Android settings.</p>
-  </div>
-
-  <p>This Privacy Policy explains how the mobile application <strong>Daily Horoscope 2026: Zodiac</strong> (package name <code>app.dailyhoroscope.zodiac</code>, referred to below as “the App”) handles information. The App is published on Google Play by an individual developer, contact: <a href="mailto:o9753241@gmail.com">o9753241@gmail.com</a>.</p>
-
-  <h2>1. Information we do not collect</h2>
-  <p>We do not ask for, collect, store, or transmit any of the following:</p>
+<div class="tabs"><button class="tab active" data-lang="en">English</button><button class="tab" data-lang="ru">Русский</button><button class="tab" data-lang="de">Deutsch</button><button class="tab" data-lang="es">Español</button><button class="tab" data-lang="fr">Français</button><button class="tab" data-lang="pt">Português</button></div>
+<section class="pane active" id="p-en" lang="en">
+  <h1>Privacy Policy — Daily Horoscope 2026: Zodiac</h1>
+  <p class="updated">Last updated: 24 September 2026</p>
+  <div class="box"><p><b>The short version.</b> Daily Horoscope 2026: Zodiac has no accounts, no sign-up and no servers of ours. What you enter stays on your phone. The only data that leaves your device is what Google’s advertising service collects to show ads — and you control that in your phone’s settings.</p></div>
+  <p>This policy explains how the Daily Horoscope 2026: Zodiac app (App Store: app.dailyhoroscope.zodiac; Google Play: app.dailyhoroscope.zodiac) handles information. The app is published by an individual developer, contact: o9753241@gmail.com.</p>
+  <h2>1. What is stored on your device</h2>
+  <p>The app keeps a small amount of data in its private storage on your phone. It never leaves the device, is not readable by other apps, and is deleted when you uninstall the app:</p>
   <ul>
-    <li>your name, e-mail address, phone number, or any other contact details;</li>
-    <li>your date of birth, exact birth time, or place of birth;</li>
-    <li>your precise or approximate location;</li>
-    <li>your contacts, photos, camera, microphone, files, or calendar;</li>
-    <li>any account credentials — the App has no sign-up and no login.</li>
+    <li>whether you have bought the ad-free version;</li>
+    <li>daily counters for features you unlock by watching an ad, so they reset at midnight;</li>
+    <li>your advertising consent choice, if you were asked for one.</li>
   </ul>
-  <p>We operate no servers and no databases. There is no back end to which your data could be sent.</p>
-
-  <h2>2. Information stored on your device</h2>
-  <p>The App saves a small amount of data locally, in the private storage area that Android assigns to it. This data never leaves your phone, is not readable by other apps, and is deleted when you uninstall the App:</p>
+  <h2>2. Advertising (Google AdMob)</h2>
+  <p>The free version shows ads supplied by Google AdMob. To serve and measure ads, Google may process device information such as an advertising identifier, IP address, device model, operating system version, approximate region, interactions with ads, and basic diagnostics.</p>
+  <p>Google does this as an independent controller. We receive only aggregate reports on impressions and revenue and never see who you are.</p>
+  <p>On iPhone and iPad, the app asks for your permission before any tracking. If you decline, the advertising identifier (IDFA) is not shared and you see non-personalised ads. You can change this at any time in Settings → Privacy &amp; Security → Tracking.</p>
+  <p>On Android, you can reset or delete your advertising ID and turn off ad personalisation in Settings → Google → Ads.</p>
+  <p>In the EEA, the UK and Switzerland, a consent form from Google is shown before personalised ads. You can reopen it from the app to change your choice.</p>
+  <p>Some extra features can be unlocked by watching a short ad. This is always optional.</p>
+  <p>Google’s policy applies to this processing: <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a>.</p>
+  <p>Buying “Remove ads” stops the app from requesting or showing ads at all.</p>
+  <h2>3. Purchases</h2>
+  <p>The optional one-time “Remove ads” purchase is processed by the App Store on iOS and by Google Play on Android. Card details, billing address and account information stay with Apple or Google and are never sent to us. The app only receives confirmation that a valid purchase exists. You can restore it on a new device with “Restore purchases”.</p>
+  <h2>4. Analytics</h2>
+  <p>The app contains no analytics, no tracking pixels and no crash-reporting service of our own. We collect no usage statistics.</p>
+  <h2>5. Permissions</h2>
   <ul>
-    <li>the zodiac sign you last viewed, and interface preferences;</li>
-    <li>daily usage counters, so that free features reset at midnight;</li>
-    <li>a flag indicating whether you have purchased the ad-free version;</li>
-    <li>cached horoscope text, so that the App works without a connection.</li>
+    <li>Internet — to load ads and verify purchases. The content itself is generated on the device and works offline.</li>
+    <li>Tracking (iOS) — asked once, used only for advertising as described above.</li>
+    <li>Advertising ID (Android) — required for AdMob; you can reset it in Android settings.</li>
   </ul>
-
-  <h2>3. Advertising (Google AdMob)</h2>
-  <p>The free version of the App displays advertising supplied by <strong>Google AdMob</strong>. To serve and measure ads, Google may collect and process device information, including the Android advertising ID, IP address, device model and operating system version, coarse region, and interactions with the ads shown.</p>
-  <p>This processing is carried out by Google as an independent controller. We receive only aggregate, non-personal reports about impressions and revenue — we never see who you are.</p>
-  <p>You can control this from your phone: open <em>Settings → Google → Ads</em>, where you can delete or reset your advertising ID and opt out of ad personalisation. Google's own policy applies to this processing: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">How Google uses information from sites or apps that use our services</a>.</p>
-  <p>Purchasing the “Remove ads” item stops the App from requesting or displaying advertising altogether.</p>
-
-  <h2>4. Purchases (Google Play Billing)</h2>
-  <p>The optional one-time “Remove ads” purchase is processed entirely by <strong>Google Play</strong>. Payment card details, billing address, and Google account information are handled by Google and are never transmitted to us or visible to us. The App receives only a confirmation that a valid purchase exists for this Google account.</p>
-
-  <h2>5. Analytics</h2>
-  <p>The App contains no analytics, no tracking pixels, and no crash-reporting service. We collect no usage statistics of our own.</p>
-
-  <h2>6. Permissions</h2>
-  <table>
-    <tr><th>Permission</th><th>Why it is needed</th></tr>
-    <tr><td><code>INTERNET</code></td><td>Loading advertising and verifying purchases. Horoscope content itself is generated on the device and works offline.</td></tr>
-    <tr><td><code>AD_ID</code></td><td>Required by Android so that AdMob can access the advertising identifier. You can reset or delete this identifier at any time in Android settings.</td></tr>
-    <tr><td><code>BILLING</code></td><td>Enables the in-app purchase that removes advertising.</td></tr>
-  </table>
-  <p>The App requests no other permissions. It cannot access your camera, microphone, location, contacts, or files.</p>
-
-  <h2>7. Children</h2>
-  <p>The App is not directed at children under the age of 13 and we do not knowingly process any data relating to them. If you believe a child has provided data through the App, please contact us and we will act promptly — although, as described above, the App collects no personal data from anyone.</p>
-
-  <h2>8. Your rights</h2>
-  <p>Because we hold no personal data about you, there is nothing for us to export, correct, or erase on request. You retain full control of the data described in section 2: clearing the App's storage or uninstalling it removes all of it permanently. For the data processed by Google, exercise your rights directly with Google through your Google account settings.</p>
-
-  <h2>9. Entertainment disclaimer</h2>
-  <p>Horoscopes, compatibility scores, and zodiac descriptions in the App are generated algorithmically and are provided for entertainment purposes only. They are not advice — medical, psychological, financial, legal, or otherwise — and should not be relied upon when making decisions.</p>
-
-  <h2>10. Changes to this policy</h2>
-  <p>If this policy changes, the updated version will be published at this address with a new “last updated” date. Continued use of the App after a change constitutes acceptance of the revised policy.</p>
-
-  <h2>11. Contact</h2>
-  <p>Questions about this policy: <a href="mailto:o9753241@gmail.com">o9753241@gmail.com</a>.</p>
-
+  <p>The app does not access your camera, microphone, location, contacts or files.</p>
+  <h2>6. Children</h2>
+  <p>The app is not directed at children under 13 and we do not knowingly process data relating to them. If you believe a child has provided data through the app, contact us and we will act promptly.</p>
+  <h2>7. Your rights</h2>
+  <p>We hold no personal data about you, so there is nothing for us to export, correct or erase on request. The data stored on your device is fully under your control: uninstalling the app removes it. For data processed by Google, use your Google account or your device settings.</p>
+  <h2>8. For entertainment only</h2>
+  <p>Horoscopes, compatibility scores and zodiac descriptions in the app are generated algorithmically and provided for entertainment only. They are not medical, psychological, financial, legal or any other advice and should not be relied on when making decisions.</p>
+  <h2>9. Changes</h2>
+  <p>If this policy changes, the new version will be published at this address with an updated date.</p>
+  <h2>10. Contact</h2>
+  <p>Questions about this policy: <a href="mailto:o9753241@gmail.com">o9753241@gmail.com</a></p>
 </section>
-
-<!-- ================= РУССКИЙ ================= -->
-<section id="lang-ru" hidden>
-
-  <div class="box">
-    <p><strong>Коротко:</strong> в приложении нет аккаунтов, нет регистрации и нет наших серверов. Всё, что вы делаете в приложении, остаётся на телефоне. С устройства уходят только те данные, которые собирают рекламный и платёжный сервисы Google, — и это можно ограничить в настройках Android.</p>
-  </div>
-
-  <p>Эта Политика конфиденциальности описывает, как мобильное приложение <strong>Daily Horoscope 2026: Zodiac</strong> (идентификатор <code>app.dailyhoroscope.zodiac</code>, далее — «Приложение») обращается с информацией. Приложение публикуется в Google Play частным разработчиком, контакт: <a href="mailto:o9753241@gmail.com">o9753241@gmail.com</a>.</p>
-
-  <h2>1. Какие данные мы не собираем</h2>
-  <p>Мы не запрашиваем, не собираем, не храним и не передаём:</p>
+<section class="pane" id="p-ru" lang="ru">
+  <h1>Политика конфиденциальности — Daily Horoscope 2026: Zodiac</h1>
+  <p class="updated">Обновлено: 24 сентября 2026</p>
+  <div class="box"><p><b>Коротко.</b> В приложении Daily Horoscope 2026: Zodiac нет аккаунтов, регистрации и наших серверов. Всё, что вы вводите, остаётся на телефоне. С устройства уходят только данные, которые рекламный сервис Google собирает для показа рекламы, — и это вы контролируете в настройках телефона.</p></div>
+  <p>Эта политика описывает, как приложение Daily Horoscope 2026: Zodiac (App Store: app.dailyhoroscope.zodiac; Google Play: app.dailyhoroscope.zodiac) обращается с информацией. Приложение выпускает частный разработчик, контакт: o9753241@gmail.com.</p>
+  <h2>1. Что хранится на вашем устройстве</h2>
+  <p>Приложение хранит небольшой объём данных во внутреннем хранилище на телефоне. Они не покидают устройство, недоступны другим приложениям и удаляются вместе с приложением:</p>
   <ul>
-    <li>имя, адрес электронной почты, номер телефона и любые другие контактные данные;</li>
-    <li>дату рождения, точное время и место рождения;</li>
-    <li>местоположение — ни точное, ни приблизительное;</li>
-    <li>контакты, фотографии, камеру, микрофон, файлы и календарь;</li>
-    <li>учётные данные — в Приложении нет ни регистрации, ни входа.</li>
+    <li>отметку о покупке версии без рекламы;</li>
+    <li>суточные счётчики функций, открываемых просмотром рекламы, — чтобы они обнулялись в полночь;</li>
+    <li>ваш выбор в запросе согласия на рекламу, если такой запрос показывался.</li>
   </ul>
-  <p>У нас нет ни серверов, ни баз данных. Отправлять ваши данные попросту некуда.</p>
-
-  <h2>2. Данные, которые хранятся на вашем устройстве</h2>
-  <p>Приложение сохраняет небольшой объём данных локально — в приватной области хранения, которую Android выделяет ему. Эти данные не покидают телефон, недоступны другим приложениям и удаляются вместе с Приложением:</p>
+  <h2>2. Реклама (Google AdMob)</h2>
+  <p>Бесплатная версия показывает рекламу Google AdMob. Для показа и измерения рекламы Google может обрабатывать сведения об устройстве: рекламный идентификатор, IP-адрес, модель устройства, версию системы, примерный регион, взаимодействия с рекламой и базовую диагностику.</p>
+  <p>Google делает это как самостоятельный оператор данных. Мы получаем только сводную статистику по показам и доходу и не знаем, кто вы.</p>
+  <p>На iPhone и iPad приложение спрашивает разрешение до любого отслеживания. Если вы откажете, рекламный идентификатор (IDFA) не передаётся, и показывается неперсонализированная реклама. Изменить решение можно в любой момент: Настройки → Конфиденциальность и безопасность → Отслеживание.</p>
+  <p>На Android рекламный идентификатор можно сбросить или удалить, а персонализацию отключить в Настройки → Google → Реклама.</p>
+  <p>В ЕЭЗ, Великобритании и Швейцарии перед персонализированной рекламой показывается форма согласия Google. Её можно открыть в приложении снова и изменить выбор.</p>
+  <p>Некоторые дополнительные функции можно открыть просмотром короткой рекламы. Это всегда по желанию.</p>
+  <p>К этой обработке применяется политика Google: <a href="https://policies.google.com/technologies/partner-sites">Как Google использует информацию сайтов и приложений</a>.</p>
+  <p>После покупки «Отключить рекламу» приложение вообще перестаёт запрашивать и показывать рекламу.</p>
+  <h2>3. Покупки</h2>
+  <p>Необязательная разовая покупка «Отключить рекламу» проводится через App Store на iOS и Google Play на Android. Данные карты, платёжный адрес и сведения аккаунта остаются у Apple или Google и нам не передаются. Приложение получает только подтверждение, что покупка есть. На новом устройстве её можно вернуть кнопкой «Восстановить покупки».</p>
+  <h2>4. Аналитика</h2>
+  <p>В приложении нет аналитики, трекеров и собственного сбора отчётов о сбоях. Статистику использования мы не собираем.</p>
+  <h2>5. Разрешения</h2>
   <ul>
-    <li>последний просмотренный знак зодиака и настройки интерфейса;</li>
-    <li>суточные счётчики, чтобы бесплатные функции обнулялись в полночь;</li>
-    <li>отметка о покупке версии без рекламы;</li>
-    <li>кэш текстов гороскопа, чтобы Приложение работало без сети.</li>
+    <li>Интернет — для загрузки рекламы и проверки покупок. Само содержание формируется на устройстве и работает без сети.</li>
+    <li>Отслеживание (iOS) — запрашивается один раз и используется только для рекламы, как описано выше.</li>
+    <li>Рекламный идентификатор (Android) — нужен AdMob; его можно сбросить в настройках Android.</li>
   </ul>
-
-  <h2>3. Реклама (Google AdMob)</h2>
-  <p>Бесплатная версия Приложения показывает рекламу через <strong>Google AdMob</strong>. Для показа и измерения рекламы Google может собирать и обрабатывать сведения об устройстве: рекламный идентификатор Android, IP-адрес, модель устройства и версию операционной системы, регион и взаимодействия с показанной рекламой.</p>
-  <p>Эту обработку Google осуществляет как самостоятельный оператор данных. Мы получаем только обезличенную сводную статистику по показам и доходу — кто вы, мы не видим.</p>
-  <p>Управлять этим можно прямо с телефона: <em>Настройки → Google → Реклама</em>, где рекламный идентификатор можно сбросить или удалить, а персонализацию рекламы — отключить. К этой обработке применяется политика Google: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Как Google использует информацию сайтов и приложений</a>.</p>
-  <p>После покупки «Отключить рекламу» Приложение перестаёт запрашивать и показывать рекламу вообще.</p>
-
-  <h2>4. Покупки (Google Play Billing)</h2>
-  <p>Разовая покупка «Отключить рекламу» полностью обрабатывается сервисом <strong>Google Play</strong>. Данные банковской карты, платёжный адрес и сведения аккаунта Google обрабатывает Google — нам они не передаются и нам не видны. Приложение получает только подтверждение того, что для этого аккаунта Google покупка существует.</p>
-
-  <h2>5. Аналитика</h2>
-  <p>В Приложении нет аналитики, трекеров и сервисов сбора отчётов о сбоях. Собственную статистику использования мы не собираем.</p>
-
-  <h2>6. Разрешения</h2>
-  <table>
-    <tr><th>Разрешение</th><th>Зачем нужно</th></tr>
-    <tr><td><code>INTERNET</code></td><td>Загрузка рекламы и проверка покупок. Сами тексты гороскопа формируются на устройстве и работают без сети.</td></tr>
-    <tr><td><code>AD_ID</code></td><td>Требуется Android, чтобы AdMob мог обратиться к рекламному идентификатору. Идентификатор в любой момент можно сбросить или удалить в настройках Android.</td></tr>
-    <tr><td><code>BILLING</code></td><td>Обеспечивает работу встроенной покупки, отключающей рекламу.</td></tr>
-  </table>
-  <p>Других разрешений Приложение не запрашивает. Доступа к камере, микрофону, геолокации, контактам и файлам у него нет.</p>
-
-  <h2>7. Дети</h2>
-  <p>Приложение не адресовано детям младше 13 лет, и мы сознательно не обрабатываем относящиеся к ним данные. Если вы полагаете, что ребёнок передал через Приложение какие-либо данные, свяжитесь с нами — мы отреагируем незамедлительно. При этом, как описано выше, персональные данные Приложение не собирает ни у кого.</p>
-
-  <h2>8. Ваши права</h2>
-  <p>Поскольку персональных данных о вас у нас нет, нам нечего выгружать, исправлять или удалять по запросу. Данные из раздела 2 полностью под вашим контролем: очистка хранилища Приложения или его удаление стирает их безвозвратно. В отношении данных, обрабатываемых Google, реализуйте свои права напрямую через настройки аккаунта Google.</p>
-
-  <h2>9. Развлекательный характер</h2>
-  <p>Гороскопы, показатели совместимости и описания знаков зодиака формируются алгоритмически и предоставляются исключительно в развлекательных целях. Они не являются советом — медицинским, психологическим, финансовым, юридическим или каким-либо иным — и не должны служить основанием для принятия решений.</p>
-
-  <h2>10. Изменения политики</h2>
-  <p>При изменении политики обновлённая версия публикуется по этому же адресу с новой датой обновления. Продолжение использования Приложения после изменений означает согласие с новой редакцией.</p>
-
-  <h2>11. Контакты</h2>
-  <p>Вопросы по политике: <a href="mailto:o9753241@gmail.com">o9753241@gmail.com</a>.</p>
-
+  <p>Приложение не обращается к камере, микрофону, геолокации, контактам и файлам.</p>
+  <h2>6. Дети</h2>
+  <p>Приложение не адресовано детям младше 13 лет, и мы сознательно не обрабатываем относящиеся к ним данные. Если вы считаете, что ребёнок передал данные через приложение, напишите нам — мы отреагируем незамедлительно.</p>
+  <h2>7. Ваши права</h2>
+  <p>Персональных данных о вас у нас нет, поэтому нам нечего выгружать, исправлять или удалять по запросу. Данные на устройстве полностью под вашим контролем: удаление приложения стирает их. В отношении данных, которые обрабатывает Google, используйте аккаунт Google или настройки устройства.</p>
+  <h2>8. Только для развлечения</h2>
+  <p>Гороскопы, показатели совместимости и описания знаков зодиака в приложении формируются алгоритмически и предназначены только для развлечения. Это не медицинский, психологический, финансовый, юридический или иной совет, и полагаться на них при принятии решений не следует.</p>
+  <h2>9. Изменения</h2>
+  <p>Если политика изменится, новая редакция появится по этому же адресу с обновлённой датой.</p>
+  <h2>10. Связь</h2>
+  <p>Вопросы по этой политике: <a href="mailto:o9753241@gmail.com">o9753241@gmail.com</a></p>
 </section>
-
-<footer>
-  <p>Daily Horoscope 2026: Zodiac · app.dailyhoroscope.zodiac · <a href="mailto:o9753241@gmail.com">o9753241@gmail.com</a></p>
-</footer>
-
-</div>
-
+<section class="pane" id="p-de" lang="de">
+  <h1>Datenschutzerklärung — Daily Horoscope 2026: Zodiac</h1>
+  <p class="updated">Zuletzt aktualisiert: 24. September 2026</p>
+  <div class="box"><p><b>Kurzfassung.</b> Daily Horoscope 2026: Zodiac hat keine Konten, keine Registrierung und keine Server von uns. Was Sie eingeben, bleibt auf Ihrem Telefon. Das Gerät verlassen nur Daten, die der Werbedienst von Google für die Anzeige von Werbung erhebt — und das steuern Sie in den Einstellungen Ihres Telefons.</p></div>
+  <p>Diese Erklärung beschreibt, wie die App Daily Horoscope 2026: Zodiac (App Store: app.dailyhoroscope.zodiac; Google Play: app.dailyhoroscope.zodiac) mit Informationen umgeht. Herausgeber ist ein privater Entwickler, Kontakt: o9753241@gmail.com.</p>
+  <h2>1. Was auf Ihrem Gerät gespeichert wird</h2>
+  <p>Die App speichert eine kleine Datenmenge in ihrem privaten Speicher auf Ihrem Telefon. Sie verlässt das Gerät nicht, ist für andere Apps nicht lesbar und wird mit der Deinstallation gelöscht:</p>
+  <ul>
+    <li>ob Sie die werbefreie Version gekauft haben;</li>
+    <li>Tageszähler für Funktionen, die Sie per Werbevideo freischalten, damit sie um Mitternacht zurückgesetzt werden;</li>
+    <li>Ihre Werbe-Einwilligung, falls Sie danach gefragt wurden.</li>
+  </ul>
+  <h2>2. Werbung (Google AdMob)</h2>
+  <p>Die kostenlose Version zeigt Werbung von Google AdMob. Für Auslieferung und Messung kann Google Geräteinformationen verarbeiten, etwa eine Werbe-ID, IP-Adresse, Gerätemodell, Systemversion, ungefähre Region, Interaktionen mit Anzeigen und einfache Diagnosedaten.</p>
+  <p>Google handelt dabei als eigenständiger Verantwortlicher. Wir erhalten nur zusammengefasste Berichte über Einblendungen und Einnahmen und wissen nicht, wer Sie sind.</p>
+  <p>Auf iPhone und iPad fragt die App vor jedem Tracking um Erlaubnis. Lehnen Sie ab, wird die Werbe-ID (IDFA) nicht weitergegeben, und Sie sehen nicht personalisierte Werbung. Ändern können Sie das jederzeit unter Einstellungen → Datenschutz &amp; Sicherheit → Tracking.</p>
+  <p>Unter Android können Sie Ihre Werbe-ID zurücksetzen oder löschen und die Personalisierung unter Einstellungen → Google → Werbung abschalten.</p>
+  <p>Im EWR, im Vereinigten Königreich und in der Schweiz wird vor personalisierter Werbung ein Einwilligungsformular von Google angezeigt. Sie können es in der App erneut öffnen und Ihre Wahl ändern.</p>
+  <p>Einige Zusatzfunktionen lassen sich durch ein kurzes Werbevideo freischalten. Das ist immer freiwillig.</p>
+  <p>Für diese Verarbeitung gilt die Richtlinie von Google: <a href="https://policies.google.com/technologies/partner-sites">Wie Google Daten von Websites und Apps verwendet</a>.</p>
+  <p>Nach dem Kauf von „Werbung entfernen“ fordert die App gar keine Werbung mehr an und zeigt keine an.</p>
+  <h2>3. Käufe</h2>
+  <p>Der optionale einmalige Kauf „Werbung entfernen“ läuft unter iOS über den App Store und unter Android über Google Play. Kartendaten, Rechnungsadresse und Kontodaten bleiben bei Apple oder Google und werden uns nie übermittelt. Die App erhält nur die Bestätigung, dass ein gültiger Kauf vorliegt. Auf einem neuen Gerät stellen Sie ihn mit „Käufe wiederherstellen“ wieder her.</p>
+  <h2>4. Analyse</h2>
+  <p>Die App enthält keine Analyse, keine Tracking-Pixel und keinen eigenen Absturzbericht-Dienst. Wir erheben keine Nutzungsstatistiken.</p>
+  <h2>5. Berechtigungen</h2>
+  <ul>
+    <li>Internet — zum Laden von Werbung und zur Prüfung von Käufen. Die Inhalte selbst entstehen auf dem Gerät und funktionieren offline.</li>
+    <li>Tracking (iOS) — wird einmal abgefragt und nur für Werbung wie oben beschrieben genutzt.</li>
+    <li>Werbe-ID (Android) — von AdMob benötigt; in den Android-Einstellungen zurücksetzbar.</li>
+  </ul>
+  <p>Die App greift nicht auf Kamera, Mikrofon, Standort, Kontakte oder Dateien zu.</p>
+  <h2>6. Kinder</h2>
+  <p>Die App richtet sich nicht an Kinder unter 13 Jahren, und wir verarbeiten wissentlich keine Daten über sie. Wenn Sie glauben, dass ein Kind über die App Daten angegeben hat, schreiben Sie uns — wir reagieren umgehend.</p>
+  <h2>7. Ihre Rechte</h2>
+  <p>Wir speichern keine personenbezogenen Daten über Sie, daher gibt es auf Anfrage nichts zu exportieren, zu berichtigen oder zu löschen. Die Daten auf Ihrem Gerät haben Sie vollständig in der Hand: Mit der Deinstallation sind sie gelöscht. Für von Google verarbeitete Daten nutzen Sie Ihr Google-Konto oder die Geräteeinstellungen.</p>
+  <h2>8. Nur zur Unterhaltung</h2>
+  <p>Horoskope, Kompatibilitätswerte und Beschreibungen der Tierkreiszeichen in der App werden algorithmisch erstellt und dienen ausschließlich der Unterhaltung. Sie sind keine medizinische, psychologische, finanzielle, rechtliche oder sonstige Beratung und sollten keine Grundlage für Entscheidungen sein.</p>
+  <h2>9. Änderungen</h2>
+  <p>Ändert sich diese Erklärung, erscheint die neue Fassung unter derselben Adresse mit aktualisiertem Datum.</p>
+  <h2>10. Kontakt</h2>
+  <p>Fragen zu dieser Erklärung: <a href="mailto:o9753241@gmail.com">o9753241@gmail.com</a></p>
+</section>
+<section class="pane" id="p-es" lang="es">
+  <h1>Política de privacidad — Daily Horoscope 2026: Zodiac</h1>
+  <p class="updated">Última actualización: 24 de septiembre de 2026</p>
+  <div class="box"><p><b>En resumen.</b> Daily Horoscope 2026: Zodiac no tiene cuentas, ni registro, ni servidores nuestros. Lo que introduces se queda en tu teléfono. Solo salen del dispositivo los datos que el servicio publicitario de Google recopila para mostrar anuncios, y eso lo controlas en los ajustes del teléfono.</p></div>
+  <p>Esta política explica cómo la app Daily Horoscope 2026: Zodiac (App Store: app.dailyhoroscope.zodiac; Google Play: app.dailyhoroscope.zodiac) trata la información. La publica un desarrollador particular, contacto: o9753241@gmail.com.</p>
+  <h2>1. Qué se guarda en tu dispositivo</h2>
+  <p>La app guarda una pequeña cantidad de datos en su almacenamiento privado del teléfono. No salen del dispositivo, otras apps no pueden leerlos y se borran al desinstalarla:</p>
+  <ul>
+    <li>si has comprado la versión sin anuncios;</li>
+    <li>contadores diarios de las funciones que desbloqueas viendo un anuncio, para que se reinicien a medianoche;</li>
+    <li>tu elección sobre el consentimiento publicitario, si se te pidió.</li>
+  </ul>
+  <h2>2. Publicidad (Google AdMob)</h2>
+  <p>La versión gratuita muestra anuncios de Google AdMob. Para servirlos y medirlos, Google puede tratar información del dispositivo como un identificador publicitario, la dirección IP, el modelo, la versión del sistema, la región aproximada, las interacciones con los anuncios y diagnósticos básicos.</p>
+  <p>Google lo hace como responsable independiente. Solo recibimos informes agregados de impresiones e ingresos y nunca sabemos quién eres.</p>
+  <p>En iPhone y iPad, la app pide tu permiso antes de cualquier rastreo. Si lo rechazas, el identificador publicitario (IDFA) no se comparte y verás anuncios no personalizados. Puedes cambiarlo cuando quieras en Ajustes → Privacidad y seguridad → Rastreo.</p>
+  <p>En Android puedes restablecer o eliminar tu ID de publicidad y desactivar la personalización en Ajustes → Google → Anuncios.</p>
+  <p>En el EEE, el Reino Unido y Suiza se muestra un formulario de consentimiento de Google antes de los anuncios personalizados. Puedes volver a abrirlo desde la app para cambiar tu elección.</p>
+  <p>Algunas funciones extra se desbloquean viendo un anuncio breve. Siempre es opcional.</p>
+  <p>A este tratamiento se aplica la política de Google: <a href="https://policies.google.com/technologies/partner-sites">Cómo usa Google la información de sitios o apps que utilizan sus servicios</a>.</p>
+  <p>Al comprar «Quitar anuncios», la app deja de solicitar y mostrar anuncios por completo.</p>
+  <h2>3. Compras</h2>
+  <p>La compra única y opcional «Quitar anuncios» la procesa App Store en iOS y Google Play en Android. Los datos de la tarjeta, la dirección de facturación y la información de la cuenta se quedan en Apple o Google y nunca nos llegan. La app solo recibe la confirmación de que existe una compra válida. En un dispositivo nuevo puedes recuperarla con «Restaurar compras».</p>
+  <h2>4. Analítica</h2>
+  <p>La app no contiene analítica, píxeles de seguimiento ni servicio propio de informes de fallos. No recopilamos estadísticas de uso.</p>
+  <h2>5. Permisos</h2>
+  <ul>
+    <li>Internet — para cargar anuncios y verificar compras. El contenido se genera en el dispositivo y funciona sin conexión.</li>
+    <li>Rastreo (iOS) — se solicita una vez y solo se usa para publicidad, como se describe arriba.</li>
+    <li>ID de publicidad (Android) — lo necesita AdMob; puedes restablecerlo en los ajustes de Android.</li>
+  </ul>
+  <p>La app no accede a la cámara, el micrófono, la ubicación, los contactos ni los archivos.</p>
+  <h2>6. Menores</h2>
+  <p>La app no está dirigida a menores de 13 años y no tratamos a sabiendas datos relativos a ellos. Si crees que un menor ha facilitado datos a través de la app, escríbenos y actuaremos de inmediato.</p>
+  <h2>7. Tus derechos</h2>
+  <p>No guardamos datos personales tuyos, así que no hay nada que exportar, corregir o borrar a petición. Los datos de tu dispositivo están totalmente bajo tu control: al desinstalar la app se eliminan. Para los datos que trata Google, usa tu cuenta de Google o los ajustes del dispositivo.</p>
+  <h2>8. Solo entretenimiento</h2>
+  <p>Los horóscopos, las puntuaciones de compatibilidad y las descripciones del zodiaco de la app se generan de forma algorítmica y son solo para entretenimiento. No constituyen consejo médico, psicológico, financiero, legal ni de ningún otro tipo, y no deben usarse para tomar decisiones.</p>
+  <h2>9. Cambios</h2>
+  <p>Si esta política cambia, la nueva versión se publicará en esta misma dirección con la fecha actualizada.</p>
+  <h2>10. Contacto</h2>
+  <p>Dudas sobre esta política: <a href="mailto:o9753241@gmail.com">o9753241@gmail.com</a></p>
+</section>
+<section class="pane" id="p-fr" lang="fr">
+  <h1>Politique de confidentialité — Daily Horoscope 2026: Zodiac</h1>
+  <p class="updated">Dernière mise à jour: 24 septembre 2026</p>
+  <div class="box"><p><b>En bref.</b> Daily Horoscope 2026: Zodiac n’a ni compte, ni inscription, ni serveur chez nous. Ce que vous saisissez reste sur votre téléphone. Seules sortent de l’appareil les données que le service publicitaire de Google collecte pour afficher des annonces — et vous les contrôlez dans les réglages du téléphone.</p></div>
+  <p>Cette politique explique comment l’application Daily Horoscope 2026: Zodiac (App Store : app.dailyhoroscope.zodiac ; Google Play : app.dailyhoroscope.zodiac) traite les informations. Elle est publiée par un développeur indépendant, contact : o9753241@gmail.com.</p>
+  <h2>1. Ce qui est enregistré sur votre appareil</h2>
+  <p>L’app conserve un petit volume de données dans son stockage privé sur votre téléphone. Elles ne quittent pas l’appareil, ne sont pas lisibles par d’autres apps et sont supprimées à la désinstallation :</p>
+  <ul>
+    <li>le fait que vous ayez acheté la version sans publicité ;</li>
+    <li>des compteurs quotidiens des fonctions débloquées en regardant une publicité, remis à zéro à minuit ;</li>
+    <li>votre choix de consentement publicitaire, s’il vous a été demandé.</li>
+  </ul>
+  <h2>2. Publicité (Google AdMob)</h2>
+  <p>La version gratuite affiche des annonces Google AdMob. Pour les diffuser et les mesurer, Google peut traiter des informations sur l’appareil : identifiant publicitaire, adresse IP, modèle, version du système, région approximative, interactions avec les annonces et diagnostics de base.</p>
+  <p>Google agit en tant que responsable indépendant. Nous ne recevons que des rapports agrégés sur les affichages et les revenus, sans jamais savoir qui vous êtes.</p>
+  <p>Sur iPhone et iPad, l’app vous demande l’autorisation avant tout suivi. Si vous refusez, l’identifiant publicitaire (IDFA) n’est pas partagé et vous voyez des annonces non personnalisées. Vous pouvez changer d’avis à tout moment dans Réglages → Confidentialité et sécurité → Suivi.</p>
+  <p>Sur Android, vous pouvez réinitialiser ou supprimer votre identifiant publicitaire et désactiver la personnalisation dans Paramètres → Google → Annonces.</p>
+  <p>Dans l’EEE, au Royaume-Uni et en Suisse, un formulaire de consentement Google s’affiche avant les annonces personnalisées. Vous pouvez le rouvrir depuis l’app pour modifier votre choix.</p>
+  <p>Certaines fonctions supplémentaires se débloquent en regardant une courte publicité. C’est toujours facultatif.</p>
+  <p>La politique de Google s’applique à ce traitement : <a href="https://policies.google.com/technologies/partner-sites">Comment Google utilise les informations des sites et applications</a>.</p>
+  <p>Après l’achat de « Supprimer les publicités », l’app ne demande ni n’affiche plus aucune annonce.</p>
+  <h2>3. Achats</h2>
+  <p>L’achat unique et facultatif « Supprimer les publicités » est traité par l’App Store sur iOS et par Google Play sur Android. Les données de carte, l’adresse de facturation et les informations de compte restent chez Apple ou Google et ne nous sont jamais transmises. L’app reçoit seulement la confirmation qu’un achat valide existe. Sur un nouvel appareil, récupérez-le avec « Restaurer les achats ».</p>
+  <h2>4. Mesure d’audience</h2>
+  <p>L’app ne contient ni outil d’analyse, ni pixel de suivi, ni service propre de rapports de plantage. Nous ne collectons aucune statistique d’utilisation.</p>
+  <h2>5. Autorisations</h2>
+  <ul>
+    <li>Internet — pour charger les publicités et vérifier les achats. Le contenu est généré sur l’appareil et fonctionne hors ligne.</li>
+    <li>Suivi (iOS) — demandé une fois et utilisé uniquement pour la publicité, comme décrit ci-dessus.</li>
+    <li>Identifiant publicitaire (Android) — nécessaire à AdMob ; réinitialisable dans les paramètres Android.</li>
+  </ul>
+  <p>L’app n’accède ni à l’appareil photo, ni au micro, ni à la localisation, ni aux contacts, ni aux fichiers.</p>
+  <h2>6. Enfants</h2>
+  <p>L’app ne s’adresse pas aux enfants de moins de 13 ans et nous ne traitons pas sciemment de données les concernant. Si vous pensez qu’un enfant a fourni des données via l’app, écrivez-nous : nous agirons rapidement.</p>
+  <h2>7. Vos droits</h2>
+  <p>Nous ne détenons aucune donnée personnelle vous concernant ; il n’y a donc rien à exporter, corriger ou effacer sur demande. Les données de votre appareil restent sous votre contrôle : la désinstallation les supprime. Pour les données traitées par Google, utilisez votre compte Google ou les réglages de l’appareil.</p>
+  <h2>8. Divertissement uniquement</h2>
+  <p>Les horoscopes, les scores de compatibilité et les descriptions du zodiaque de l’app sont générés par algorithme et proposés uniquement à des fins de divertissement. Ce ne sont pas des conseils médicaux, psychologiques, financiers, juridiques ou autres, et il ne faut pas s’y fier pour prendre des décisions.</p>
+  <h2>9. Modifications</h2>
+  <p>Si cette politique change, la nouvelle version sera publiée à cette même adresse avec une date mise à jour.</p>
+  <h2>10. Contact</h2>
+  <p>Questions sur cette politique : <a href="mailto:o9753241@gmail.com">o9753241@gmail.com</a></p>
+</section>
+<section class="pane" id="p-pt" lang="pt">
+  <h1>Política de Privacidade — Daily Horoscope 2026: Zodiac</h1>
+  <p class="updated">Última atualização: 24 de setembro de 2026</p>
+  <div class="box"><p><b>Resumo.</b> O Daily Horoscope 2026: Zodiac não tem contas, cadastro nem servidores nossos. O que você insere fica no seu telefone. Só saem do aparelho os dados que o serviço de anúncios do Google coleta para exibir publicidade — e você controla isso nas configurações do telefone.</p></div>
+  <p>Esta política explica como o app Daily Horoscope 2026: Zodiac (App Store: app.dailyhoroscope.zodiac; Google Play: app.dailyhoroscope.zodiac) trata as informações. O app é publicado por um desenvolvedor individual, contato: o9753241@gmail.com.</p>
+  <h2>1. O que fica guardado no seu aparelho</h2>
+  <p>O app guarda uma pequena quantidade de dados no armazenamento privado do seu telefone. Eles não saem do aparelho, outros apps não conseguem lê-los e são apagados quando você desinstala o app:</p>
+  <ul>
+    <li>se você comprou a versão sem anúncios;</li>
+    <li>contadores diários das funções liberadas assistindo a um anúncio, para que zerem à meia-noite;</li>
+    <li>sua escolha de consentimento para anúncios, se ela foi solicitada.</li>
+  </ul>
+  <h2>2. Publicidade (Google AdMob)</h2>
+  <p>A versão gratuita exibe anúncios do Google AdMob. Para exibi-los e medi-los, o Google pode tratar informações do aparelho, como um identificador de publicidade, endereço IP, modelo, versão do sistema, região aproximada, interações com anúncios e diagnósticos básicos.</p>
+  <p>O Google faz isso como controlador independente. Recebemos apenas relatórios agregados de impressões e receita e nunca sabemos quem você é.</p>
+  <p>No iPhone e no iPad, o app pede sua permissão antes de qualquer rastreamento. Se você recusar, o identificador de publicidade (IDFA) não é compartilhado e você vê anúncios não personalizados. Dá para mudar a qualquer momento em Ajustes → Privacidade e Segurança → Rastreamento.</p>
+  <p>No Android, você pode redefinir ou excluir seu ID de publicidade e desativar a personalização em Configurações → Google → Anúncios.</p>
+  <p>No EEE, no Reino Unido e na Suíça, um formulário de consentimento do Google aparece antes dos anúncios personalizados. Você pode abri-lo de novo no app para mudar sua escolha.</p>
+  <p>Algumas funções extras podem ser liberadas assistindo a um anúncio curto. Isso é sempre opcional.</p>
+  <p>A política do Google se aplica a esse tratamento: <a href="https://policies.google.com/technologies/partner-sites">Como o Google usa informações de sites ou apps que usam seus serviços</a>.</p>
+  <p>Ao comprar “Remover anúncios”, o app deixa de solicitar e exibir anúncios por completo.</p>
+  <h2>3. Compras</h2>
+  <p>A compra única e opcional “Remover anúncios” é processada pela App Store no iOS e pelo Google Play no Android. Dados do cartão, endereço de cobrança e informações da conta ficam com a Apple ou o Google e nunca chegam até nós. O app recebe apenas a confirmação de que existe uma compra válida. Em um aparelho novo, recupere-a com “Restaurar compras”.</p>
+  <h2>4. Análise</h2>
+  <p>O app não contém ferramentas de análise, pixels de rastreamento nem serviço próprio de relatórios de falhas. Não coletamos estatísticas de uso.</p>
+  <h2>5. Permissões</h2>
+  <ul>
+    <li>Internet — para carregar anúncios e verificar compras. O conteúdo é gerado no aparelho e funciona offline.</li>
+    <li>Rastreamento (iOS) — solicitado uma vez e usado só para publicidade, como descrito acima.</li>
+    <li>ID de publicidade (Android) — necessário para o AdMob; pode ser redefinido nas configurações do Android.</li>
+  </ul>
+  <p>O app não acessa câmera, microfone, localização, contatos nem arquivos.</p>
+  <h2>6. Crianças</h2>
+  <p>O app não é direcionado a crianças menores de 13 anos e não tratamos conscientemente dados relativos a elas. Se você acredita que uma criança forneceu dados pelo app, escreva para nós e agiremos prontamente.</p>
+  <h2>7. Seus direitos</h2>
+  <p>Não mantemos dados pessoais sobre você, então não há nada a exportar, corrigir ou apagar mediante pedido. Os dados do aparelho estão totalmente sob seu controle: desinstalar o app os remove. Para dados tratados pelo Google, use sua Conta do Google ou as configurações do aparelho.</p>
+  <h2>8. Apenas entretenimento</h2>
+  <p>Os horóscopos, as pontuações de compatibilidade e as descrições do zodíaco do app são gerados por algoritmo e servem apenas para entretenimento. Não são aconselhamento médico, psicológico, financeiro, jurídico ou de qualquer outro tipo e não devem ser usados para tomar decisões.</p>
+  <h2>9. Alterações</h2>
+  <p>Se esta política mudar, a nova versão será publicada neste mesmo endereço com a data atualizada.</p>
+  <h2>10. Contato</h2>
+  <p>Dúvidas sobre esta política: <a href="mailto:o9753241@gmail.com">o9753241@gmail.com</a></p>
+</section>
+<footer>Daily Horoscope 2026: Zodiac · o9753241@gmail.com</footer>
 <script>
-function pick(lang){
-  ['en','ru'].forEach(function(l){
-    document.getElementById('lang-'+l).hidden = (l !== lang);
-    document.getElementById('btn-'+l).setAttribute('aria-selected', l === lang);
-  });
-  document.documentElement.lang = lang;
-  document.querySelectorAll('[data-en]').forEach(function(el){
-    el.textContent = el.getAttribute('data-'+lang);
-  });
-}
-// Открываем на языке браузера, если это русский.
-if ((navigator.language || 'en').slice(0,2) === 'ru') pick('ru');
+  // Открываем язык браузера, если он есть в списке; иначе остаётся английский.
+  (function () {
+    var langs = ["en", "ru", "de", "es", "fr", "pt"];
+    function show(code) {
+      document.querySelectorAll('.tab').forEach(function (t) {
+        t.classList.toggle('active', t.dataset.lang === code);
+      });
+      document.querySelectorAll('.pane').forEach(function (p) {
+        p.classList.toggle('active', p.id === 'p-' + code);
+      });
+      document.documentElement.lang = code;
+    }
+    document.querySelectorAll('.tab').forEach(function (t) {
+      t.addEventListener('click', function () { show(t.dataset.lang); });
+    });
+    var pref = navigator.languages || [navigator.language || 'en'];
+    for (var i = 0; i < pref.length; i++) {
+      var code = String(pref[i]).slice(0, 2).toLowerCase();
+      if (langs.indexOf(code) !== -1) { show(code); break; }
+    }
+  })();
 </script>
-
 </body>
 </html>
